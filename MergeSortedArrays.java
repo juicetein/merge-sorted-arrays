@@ -1,9 +1,6 @@
 /**
  * Homework #1 – Week 1 Day 2
- * Author: Justin Lao
- *
- * This program merges two sorted integer arrays
- * into one sorted array.
+ * Justin Lao
  */
 public class MergeSortedArrays {
 
@@ -15,8 +12,8 @@ public class MergeSortedArrays {
 
         int[] result = new int[A.length + B.length];
 
-        int i = 0; // pointer for array A
-        int j = 0; // pointer for array B
+        int i = 0; // index for first array
+        int j = 0; // index for second array
         int k = 0; // pointer for result array
 
         while (i < A.length && j < B.length) {
