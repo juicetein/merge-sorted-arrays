@@ -1,3 +1,10 @@
+/**
+ * Homework #1 – Week 1 Day 2
+ * Author: Justin Lao
+ *
+ * This program merges two sorted integer arrays
+ * into one sorted array.
+ */
 public class MergeSortedArrays {
 
     /*
