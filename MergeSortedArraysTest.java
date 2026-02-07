@@ -1,10 +1,15 @@
+/**
+ * Homework#1 W1 D2 – Unit Tests
+ * Tests for MergeSortedArrays
+ */
+
 import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class MergeSortedArraysTest {
 
     @Test
-    public void testMergeBasic() {
+    public void testNormalMerge() {
         int[] A = {1, 3, 5};
         int[] B = {2, 4, 6};
 
@@ -15,7 +20,7 @@ public class MergeSortedArraysTest {
     }
 
     @Test
-    public void testMergeWithEmptyArray() {
+    public void testEmptyArrayCase() {
         int[] A = {};
         int[] B = {1, 2, 3};
 
